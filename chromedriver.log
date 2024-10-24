@@ -1,0 +1,137 @@
+[1729327492.457][INFO]: Starting ChromeDriver 130.0.6723.58 (3a50e012e4c9b8a410a4e2b12bf577e69ee8f755-refs/branch-heads/6723@{#1353}) on port 9515
+[1729327492.457][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1729327492.460][INFO]: ChromeDriver was started successfully on port 9515
+[1729327492.713][INFO]: [1451690a3a5c4405a94623aaee0509f3] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage", "--window-size=1400,1400" ],
+            "binary": "/usr/bin/google-chrome"
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      }
+   }
+}
+[1729327492.714][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1729327492.714][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1729327492.714][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1729327492.714][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1729327492.714][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.7CpGr1 --window-size=1400,1400 data:,
+[1729327493.497][INFO]: resolved localhost to ["127.0.0.1"]
+[1729327493.674][INFO]: [1451690a3a5c4405a94623aaee0509f3] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "130.0.6723.58",
+      "chrome": {
+         "chromedriverVersion": "130.0.6723.58 (3a50e012e4c9b8a410a4e2b12bf577e69ee8f755-refs/branch-heads/6723@{#1353})",
+         "userDataDir": "/tmp/.org.chromium.Chromium.7CpGr1"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:33069"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1451690a3a5c4405a94623aaee0509f3"
+}
+[1729327493.682][INFO]: [1451690a3a5c4405a94623aaee0509f3] COMMAND Navigate {
+   "url": "http://www.google.com"
+}
+[1729327493.682][INFO]: Waiting for pending navigations...
+[1729327493.698][INFO]: Done waiting for pending navigations. Status: ok
+[1729327494.247][INFO]: Waiting for pending navigations...
+[1729327495.680][INFO]: Done waiting for pending navigations. Status: ok
+[1729327495.680][INFO]: [1451690a3a5c4405a94623aaee0509f3] RESPONSE Navigate
+[1729327495.682][INFO]: [1451690a3a5c4405a94623aaee0509f3] COMMAND GetTitle {
+}
+[1729327495.682][INFO]: Waiting for pending navigations...
+[1729327495.684][INFO]: Done waiting for pending navigations. Status: ok
+[1729327495.699][INFO]: Waiting for pending navigations...
+[1729327495.703][INFO]: Done waiting for pending navigations. Status: ok
+[1729327495.703][INFO]: [1451690a3a5c4405a94623aaee0509f3] RESPONSE GetTitle "Google"
+[1729327495.706][INFO]: [1451690a3a5c4405a94623aaee0509f3] COMMAND Quit {
+}
+[1729327495.763][INFO]: [1451690a3a5c4405a94623aaee0509f3] RESPONSE Quit
